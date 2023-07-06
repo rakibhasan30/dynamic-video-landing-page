@@ -1,5 +1,5 @@
 * {
-  box-sizing: content-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: "Noto Sans", sans-serif;
@@ -60,7 +60,7 @@ nav {
 }
 
 .hero {
-  height: 78vh;
+  height: 79vh;
   width: auto;
   display: flex;
   justify-content: center;
@@ -81,9 +81,10 @@ nav {
   color: #6a7076;
 }
 .mobile img {
-  margin-top: 4rem;
+  margin-top: 107px;
   width: 100vw;
   height: auto;
+  offset-anchor: bottom;
 }
 
 .middle-section {
