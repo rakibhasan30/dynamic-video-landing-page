@@ -60,31 +60,26 @@ nav {
 }
 
 .hero {
-  height: 79vh;
-  width: auto;
-  display: flex;
-  justify-content: center;
-  margin-top: 6rem;
+  height: 78vh;
+  margin-top: 8rem;
   text-align: center;
-  border-bottom: 0.5px solid #e4e4e6;
+  overflow: hidden;
 }
 
 .hero-copy {
   font-size: 2rem;
   font-weight: bolder;
-  overflow: hidden;
+  height: auto;
 }
 
 .hero-copy h3 {
   font-size: 1.5rem;
   margin-top: 1rem;
+  margin-bottom: 165px;
   color: #6a7076;
 }
 .mobile img {
-  margin-top: 107px;
   width: 100vw;
-  height: auto;
-  offset-anchor: bottom;
 }
 
 .middle-section {
@@ -94,6 +89,7 @@ nav {
   gap: 1rem;
   align-items: center;
   border-bottom: 0.5px solid #e4e4e6;
+  border-top: 0.5px solid #e4e4e6;
 }
 
 .numbers {
@@ -143,9 +139,8 @@ nav {
 }
 .contents {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
-  gap: 8rem;
   margin-top: 50px;
 }
 .content-1 {
@@ -153,8 +148,10 @@ nav {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  margin: 1.5rem;
 }
 .content-1 p {
+  width: 20rem;
   margin-top: 20px;
   font-size: 1.3rem;
   color: #838588;
