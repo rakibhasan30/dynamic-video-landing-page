@@ -163,7 +163,28 @@ nav {
 .benefits {
   font-size: 2rem;
   font-weight: bolder;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   width: 100%;
   text-align: center;
+}
+
+.fourth-section {
+  padding: 120px 500px;
+  position: relative;
+  background-color: #e4e4e6;
+  overflow: hidden;
+}
+.fourth-section-image img {
+  width: 400px;
+  position: absolute;
+  left: 30%;
+  bottom: 10%;
+}
+.fourth-section-text {
+  width: 400px;
+  float: right;
+}
+.fifth-section {
+  height: 800px;
+  width: auto;
 }
